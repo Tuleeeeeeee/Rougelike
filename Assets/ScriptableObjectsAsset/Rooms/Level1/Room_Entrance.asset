@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03dd8bdf4118c21408c1d32259af5679, type: 3}
+  m_Name: Room_Entrance
+  m_EditorClassIdentifier: 
+  guid: bc8f485e64af65c45b1793dac617aaad
+  prefab: {fileID: 8355784810037384008, guid: 3e052983b2e1674448b7064af705b138, type: 3}
+  previousPrefab: {fileID: 8355784810037384008, guid: 3e052983b2e1674448b7064af705b138, type: 3}
+  roomNodeType: {fileID: 11400000, guid: ed48140f64032e4449e05f88c08955ec, type: 2}
+  lowerBounds: {x: -11, y: -11}
+  upperBounds: {x: 11, y: 12}
+  doorwayList:
+  - position: {x: -11, y: -4}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCoptTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: 0, y: 0}
